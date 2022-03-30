@@ -1,0 +1,23 @@
+{
+  "name": "commandline-toy-robot-simulator",
+  "version": "1.0.0",
+  "description": "Toy robot simulator: command line app nodejs",
+  "main": "toyrobotapp.js",
+  "bin": {
+    "toy-robot": "src/toyrobotapp.js"
+  },
+  "scripts": {
+    "start": "node ./src/toyrobotapp.js",
+    "test": "mocha ./*/*.test.js",
+    "test-watch": "nodemon --exec \"npm test\""
+  },
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commander": "^2.18.0",
+    "figlet": "^1.2.0"
+  },
+  "devDependencies": {
+    "expect": "^23.6.0",
+    "mocha": "^5.2.0"
+  }
+}
