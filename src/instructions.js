@@ -2,7 +2,7 @@ const directions = require('./directions.js');
 const communication = require('./communication.js');
 
 /**
- * To check if the command receives on the first round is PLACE X,Y,F
+ * 
  *
  * @param {int} round - The number indicator for the number of round
  * @param {string} command - The command that is being keyed in by user
@@ -12,7 +12,7 @@ const isInvalidFirstCommandPattern = (round, command) => {
 };
 
 /**
- * To check if the command receives is a valid based on specified pattern
+ * 
  *
  * @param {string} command The command that is being keyed in by user
  */
@@ -21,7 +21,7 @@ const isInvalidCommandPattern = command => {
 };
 
 /**
- * To check if the given command matches with the intended command
+ * 
  *
  * @param {string} type - The type of command to be verified against
  * @param {string} command - The command that is being keyed in by user
@@ -36,7 +36,7 @@ const isCmdtyOf = (type, command) => {
 };
 
 /**
- * To check if the command receives is a valid and eligible command
+ *
  *
  * @param {int} round - The number indicator for the number of round
  * @param {string} command - The command that is being keyed in by user
@@ -61,7 +61,7 @@ const isCorrectCmd = (round, command) => {
 };
 
 /**
- * To execute the given command (PLACE, MOVE, LEFT, RIGHT, REPORT)
+ * 
  *
  * @param {string} command - The command that is being keyed in by user
  * @param {array} coordinate - The X and Y coordinates

@@ -1,9 +1,7 @@
 const chalk = require('chalk');
 const figlet = require('figlet');
 
-/**
- * To print out a large text as a header label for this program
- */
+
 const prCaption = () => {
   console.log(
     chalk.cyan(
@@ -16,9 +14,7 @@ const prCaption = () => {
   );
 };
 
-/**
- * To print out a brief guide to assist new user who uses this program
- */
+
 const prDetail = () => {
   console.log(chalk.cyan('\nEach command needs to be separated into a new line:\nType "REPORT" to see the current coordinate of your robot\n'));
 

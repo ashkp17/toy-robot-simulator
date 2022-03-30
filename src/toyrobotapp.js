@@ -4,9 +4,7 @@ const communication = require('./communication.js');
 const instructions = require('./instructions.js');
 const describe = require('./describe.js');
 
-/**
- * To receive input command from user continuously, until user explicity terminate the program
- */
+
 const readInput = () => {
   let expinp = process.openStdin();
   let coordinate = [0, 0];
